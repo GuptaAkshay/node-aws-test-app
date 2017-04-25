@@ -1,7 +1,7 @@
 {
   "name": "node-aws-test-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A test node js app made to deploy on aws",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,5 +23,8 @@
   },
   "devDependencies": {
     "pm2": "^2.4.5"
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
   }
 }
